@@ -7,16 +7,22 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 class App extends Component {
 
   constructor(props) {
-    super();
+    super(props);
     this.state = {
       foo: "bar",
       resumeData: {},
       sharedData: {},
     };
+    this.aboutRef = React.createRef()
+    this.projectsRef = React.createRef()
+    this.skillsRef = React.createRef()
+    this.experienceRef = React.createRef()
+    this.getInTouchRef = React.createRef()
   }
 
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
@@ -78,10 +84,28 @@ class App extends Component {
       },
     });
   }
+  aboutScroll = () => this.aboutRef.current.scrollIntoView()
+  projectsScroll = () => this.projectsRef.current.scrollIntoView()
+  skillsScroll = () => this.skillsRef.current.scrollIntoView()
+  experienceScroll = () => this.experienceRef.current.scrollIntoView()
+  GetInTouchScroll = () => this.getInTouchRef.current.scrollIntoView()
 
   render() {
     return (
       <div>
+        <Navbar bg="dark" variant="dark" sticky="top" className="nav-bar">
+          <Container>
+            <Navbar.Brand href="#home">Linas Jonika</Navbar.Brand>
+            <Nav>
+              <Nav.Link onClick={this.aboutScroll}>About</Nav.Link>
+              <Nav.Link onClick={this.projectsScroll}>Projects</Nav.Link>
+              <Nav.Link onClick={this.skillsScroll}>Skills</Nav.Link>
+              <Nav.Link onClick={this.experienceScroll}>Experience</Nav.Link>
+              <Nav.Link onClick={this.getInTouchScroll}>GET IN TOUCH</Nav.Link>
+            </Nav>
+          </Container>
+
+        </Navbar>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
@@ -111,24 +135,28 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-lithuania"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
           </div>
         </div>
+        <div ref={this.aboutRef}></div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
+        <div ref={this.projectsRef}></div>
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        <div ref={this.skillsRef}></div>
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        <div ref={this.experienceRef}></div>
         <Experience
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
