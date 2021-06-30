@@ -5,8 +5,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import FormSection from "./components/formSection/FormSection"
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 class App extends Component {
@@ -88,7 +90,7 @@ class App extends Component {
   projectsScroll = () => this.projectsRef.current.scrollIntoView()
   skillsScroll = () => this.skillsRef.current.scrollIntoView()
   experienceScroll = () => this.experienceRef.current.scrollIntoView()
-  GetInTouchScroll = () => this.getInTouchRef.current.scrollIntoView()
+  getInTouchScroll = () => this.getInTouchRef.current.scrollIntoView()
 
   render() {
     return (
@@ -101,7 +103,7 @@ class App extends Component {
               <Nav.Link onClick={this.projectsScroll}>Projects</Nav.Link>
               <Nav.Link onClick={this.skillsScroll}>Skills</Nav.Link>
               <Nav.Link onClick={this.experienceScroll}>Experience</Nav.Link>
-              <Nav.Link onClick={this.getInTouchScroll}>GET IN TOUCH</Nav.Link>
+              <Nav.Link onClick={this.getInTouchScroll}>CONTACT</Nav.Link>
             </Nav>
           </Container>
 
@@ -161,6 +163,12 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        <Education
+          resumeEducation={this.state.resumeData.education}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <div ref={this.getInTouchRef}></div>
+        <FormSection />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

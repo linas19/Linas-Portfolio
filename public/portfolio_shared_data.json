@@ -4,14 +4,14 @@
       "titles": [ "Full-stack Developer", "Mobile App Developer" ],
       "social": [
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/linas-jonika-0a65baa0/",
+          "class": "fab fa-linkedin"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "github",
+          "url": "https://github.com/linas19",
+          "class": "fab fa-github"
         }
       ],
       "image": "foto.jpg"
@@ -72,11 +72,6 @@
           "name": "Swift",
           "class": "devicon-swift-plain",
           "level": "60"
-        },
-        {
-          "name": "MatLab",
-          "class": "devicon-matlab-line",
-          "level": "10"
         }
       ]
     }
