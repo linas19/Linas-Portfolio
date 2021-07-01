@@ -50,12 +50,13 @@ export default function FormSection() {
         />
         <input
           className={styles.formSectionRightTopBox}
-          type="text"
+          type="email"
           placeholder="Email"
           onChange={(e) => {
             setEmail(e.target.value);
           }}
           name="email"
+          required
         />
         <textarea
           className={styles.formSectionRightBottomBox}
