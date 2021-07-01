@@ -8,7 +8,6 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-// import FormSection from "./components/formSection/FormSection"
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 class App extends Component {
@@ -171,19 +170,16 @@ class App extends Component {
         {/* <FormSection /> */}
         <form name="contact" method="POST" data-netlify="true">
           <p>
-            <label>Your Name: <input type="text" name="name" /></label>
+            <input type="text" name="name" placeholder="Your name"/>
           </p>
           <p>
-            <label>Your Email: <input type="email" name="email" /></label>
+            <input type="email" name="email" placeholder="Your e-mail"/>
           </p>
           <p>
-            <label>Your Role: <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label>
+            <input type="text" name="number" placeholder="Phone number" />
           </p>
           <p>
-            <label>Message: <textarea name="message"></textarea></label>
+            <textarea name="message" placeholder="message"></textarea>
           </p>
           <p>
             <button type="submit">Send</button>
