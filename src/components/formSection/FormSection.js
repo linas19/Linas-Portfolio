@@ -6,7 +6,7 @@ export default function FormSection() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  // const [submitted, setSubmitted] = useState(false);
   const bottomRef = React.useRef();
 
   const handleSubmit = (e) => {
@@ -28,7 +28,7 @@ export default function FormSection() {
       console.log("Response received");
       if (res.status === 200) {
         console.log("Response succeeded!");
-        setSubmitted(true);
+        // setSubmitted(true);
         setName("");
         setEmail("");
         setMessage("");
