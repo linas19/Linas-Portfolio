@@ -10,6 +10,12 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
+const encode = (data) => {
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
+
 class App extends Component {
 
   constructor(props) {
@@ -19,6 +25,7 @@ class App extends Component {
       resumeData: {},
       sharedData: {},
     };
+    this.mail = { name: "", email: "", message: "" }
     this.aboutRef = React.createRef()
     this.projectsRef = React.createRef()
     this.skillsRef = React.createRef()
@@ -91,7 +98,22 @@ class App extends Component {
   experienceScroll = () => this.experienceRef.current.scrollIntoView()
   getInTouchScroll = () => this.getInTouchRef.current.scrollIntoView()
 
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.mail })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
   render() {
+    const { name, email, message } = this.mail;
+
     return (
       <div>
         <Navbar bg="dark" variant="dark" sticky="top" className="nav-bar">
@@ -168,18 +190,38 @@ class App extends Component {
         />
         <div ref={this.getInTouchRef}></div>
         {/* <FormSection /> */}
-        <form name="contact" method="POST" data-netlify="true">
+        {/* <form name="contact" method="POST" data-netlify="true">
           <p>
-            <input type="text" name="name" placeholder="Your name"/>
+            <input type="text" name="name" placeholder="Your name" />
           </p>
           <p>
-            <input type="email" name="email" placeholder="Your e-mail"/>
+            <input type="email" name="email" placeholder="Your e-mail" />
           </p>
           <p>
             <input type="text" name="number" placeholder="Phone number" />
           </p>
           <p>
             <textarea name="message" placeholder="message"></textarea>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form> */}
+                <form onSubmit={this.handleSubmit}>
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message" value={message} onChange={this.handleChange} />
+            </label>
           </p>
           <p>
             <button type="submit">Send</button>
