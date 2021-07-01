@@ -443,3 +443,31 @@ footer a:focus {
 	color: black;
 	text-align: center;
 }
+.form-fields{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.input-field{
+	height: 30px;
+	width: 200px;
+	border: solid rgb(131,58,180);
+	border-radius: 5px;
+	background-color: rgba(253,160,29,1);
+}
+#message{
+	height: 100px;
+	width: 200px;
+	border: solid rgb(131,58,180);
+	border-radius: 5px;
+	background-color: rgba(253,160,29,1);
+}
+#submit{
+	width: 200px;
+	border: solid rgb(131,58,180);
+	border-radius: 5px;
+	background-color: rgb(131,58,180);
+	font: 18px 'opensans-bold', sans-serif;
+}
