@@ -430,3 +430,16 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+#form {
+	background: linear-gradient(138deg, rgba(131,58,180,1) 0%, rgba(253,160,29,1) 50%, rgba(252,176,69,1) 100%);
+	overflow: hidden;
+}
+
+#form h1 {
+	padding-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}

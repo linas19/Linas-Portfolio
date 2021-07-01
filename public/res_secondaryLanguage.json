@@ -1,12 +1,13 @@
 {
   "basic_info": {
-    "description_header": "Sveiki",
-    "description": "👋 I'as linas And blahFictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "description_header": "Hi",
+    "description": "👋 I'mLinas And blahFictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Experience",
+      "education": "Education"
     }
   },
   "projects": [
@@ -109,6 +110,60 @@
         "SciPy",
         "SciKit-learn",
         "Pandas"
+      ]
+    },
+    {
+      "company": "Open Access Centre for Marine Research",
+      "title": "Chemical Engineer/Researcher",
+      "years": "2014 - 2016",
+      "mainTech": [
+        "MatLab/MS Excel"
+      ],
+      "technologies": [
+        "MS Excel",
+        "MatLab"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "company": "KAYAK",
+      "title": "We Can Code KAYAK course",
+      "years": "2021",
+      "mainTech": [
+        "WCC KAYAK Certificate"
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "company": "Klaipeda University",
+      "title": "Master of Marine Transport Technology",
+      "years": "2014 - 2016",
+      "mainTech": [
+        "MTech"
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "company": "Klaipeda University",
+      "title": "Bachelor of Chemical Engineering",
+      "years": "2010 - 2014",
+      "mainTech": [
+        "BEng"
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "company": "Vilnius Coding School",
+      "title": "Web Development Course",
+      "years": "2018 - 2018",
+      "mainTech": [
+        "Web Development Course Certificate"
+      ],
+      "technologies": [
       ]
     }
   ]
