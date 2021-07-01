@@ -19,7 +19,7 @@ export default function Form() {
                         <textarea id="message" name="message" placeholder="Message" required></textarea>
                     </p>
                     <p>
-                        <input id="submit" type="submit" value="Submit message" />
+                        <input id="submit" type="submit" value="SUBMIT" />
                     </p>
                 </form>
             </div>
