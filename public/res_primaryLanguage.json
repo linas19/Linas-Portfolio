@@ -18,7 +18,7 @@
         "images": [
           "images/portfolio/bug_tracker/p1.png"
         ],
-        "url": "",
+        "url": "https://github.com/linas19/BugTracker",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -35,29 +35,6 @@
           {
             "class": "devicon-mongodb-plain",
             "name": "MongoDB"
-          }
-        ]
-      },
-      {
-        "title": "Peronas",
-        "startDate": "2019",
-        "description": "My first ever project that I've done with my group in Vilnius Coding School",
-        "images": [
-          "images/portfolio/peronas/p1.png",
-          "images/portfolio/peronas/p2.png",
-          "images/portfolio/peronas/p3.png",
-          "images/portfolio/peronas/p4.png",
-          "images/portfolio/peronas/p5.png"
-        ],
-        "url": "https://github.com/linas19/Peronas",
-        "technologies": [
-          {
-            "class": "devicon-php-plain",
-            "name": "PHP"
-          },
-          {
-            "class": "devicon-jquery-plain",
-            "name": "JQuery"
           }
         ]
       },
@@ -101,6 +78,44 @@
           {
             "class": "devicon-react-plain",
             "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Peronas",
+        "startDate": "2019",
+        "description": "My first ever project that I've done with my group in Vilnius Coding School",
+        "images": [
+          "images/portfolio/peronas/p1.png",
+          "images/portfolio/peronas/p2.png",
+          "images/portfolio/peronas/p3.png",
+          "images/portfolio/peronas/p4.png",
+          "images/portfolio/peronas/p5.png"
+        ],
+        "url": "https://github.com/linas19/Peronas",
+        "technologies": [
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "JQuery"
+          }
+        ]
+      },
+      {
+        "title": "CPU tracker",
+        "startDate": "2018",
+        "description": "This tool allows the tracking of CPU usage and if CPU % usage value falls bellow a designated value an e-mail is sent to given e-mail. This is useful when information about a finished computer simulation is needed.        ",
+        "images": [
+          "images/portfolio/python_script/p1.png"
+        ],
+        "url": "https://github.com/linas19/CPU_tracker",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       }
