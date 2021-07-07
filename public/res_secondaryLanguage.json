@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "👋 I'mLinas And blahFictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "description_header": "Hi there. My name is Linas ",
+    "description": "Having spent multiple years in research, I developed a keen interest in new technologies and programming in particular. I have been fortunate enough to be able to explore different fields within programming including machine learning as well as mobile and web app development. For the future, I am keen to find a fun and sociable team that shares my excitement for programming and innovation and be able to further develop my technical skills as a full stack developer.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -12,70 +12,110 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "BugTracker App",
+      "startDate": "2021",
+      "description": "My current project. I will use this app to track bug in the apps that I will develop in the future. It uses the MERN stack.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/bug_tracker/p1.png"
+      ],
+      "url": "https://github.com/linas19/BugTracker",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "ReactJS"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "Erika's Blog",
+      "startDate": "2021",
+      "description": "I built a blog for my sister.",
+      "images": [
+        "images/portfolio/erika_blog/p1.png",
+        "images/portfolio/erika_blog/p2.png",
+        "images/portfolio/erika_blog/p3.png",
+        "images/portfolio/erika_blog/p4.png",
+        "images/portfolio/erika_blog/p5.png"
+      ],
+      "url": "https://github.com/linas19/Erika_HomePage",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-plain colored",
+          "name": "NextJS"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        }
+      ]
+    },
+    {
+      "title": "GCSE Flashcards",
+      "startDate": "2020",
+      "description": "This was a project that I worked on during my time at UDEAVOUR. This project was developed on both React Native and iOS Swift separately. This project was released on both Apple Store and Google Play. Currently the project is being renewed with new content and will be relaunched in.",
+      "images": [
+        "images/portfolio/GCSE_flashcards/p1.jpg",
+        "images/portfolio/GCSE_flashcards/p2.jpg"
       ],
       "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-swift-plain",
+          "name": "Swift"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
+          "class": "devicon-react-plain",
           "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
         }
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "title": "Peronas",
+      "startDate": "2019",
+      "description": "My first ever project that I've done with my group in Vilnius Coding School",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/peronas/p1.png",
+        "images/portfolio/peronas/p2.png",
+        "images/portfolio/peronas/p3.png",
+        "images/portfolio/peronas/p4.png",
+        "images/portfolio/peronas/p5.png"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/linas19/Peronas",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-php-plain",
+          "name": "PHP"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
+          "class": "devicon-jquery-plain",
+          "name": "JQuery"
+        }
+      ]
+    },
+    {
+      "title": "CPU tracker",
+      "startDate": "2018",
+      "description": "This tool allows the tracking of CPU usage and if CPU % usage value falls bellow a designated value an e-mail is sent to given e-mail. This is useful when information about a finished computer simulation is needed.        ",
+      "images": [
+        "images/portfolio/python_script/p1.png"
+      ],
+      "url": "https://github.com/linas19/CPU_tracker",
+      "technologies": [
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-python-plain",
+          "name": "Python"
         }
       ]
     }
@@ -84,7 +124,7 @@
     {
       "company": "Udeavour",
       "title": "Mobile App Developer",
-      "years": "2019 - 2021",
+      "years": "2018 - 2020 (Part-time)",
       "mainTech": [
         "React Native/Swift"
       ],
@@ -95,8 +135,8 @@
       ]
     },
     {
-      "company": "Klaipeda University",
-      "title": "PhD Student/Lecturer",
+      "company": "Marine Research Institute",
+      "title": "Researcher/Chemical engineer",
       "years": "2018 - 2020",
       "mainTech": [
         "Python/MatLab"
@@ -113,8 +153,19 @@
       ]
     },
     {
+      "company": "Lithuanian military",
+      "title": "Engineering officer",
+      "years": "2016 - 2018",
+      "mainTech": [
+        "MS Excel"
+      ],
+      "technologies": [
+        "MS Office"
+      ]
+    },
+    {
       "company": "Open Access Centre for Marine Research",
-      "title": "Chemical Engineer/Researcher",
+      "title": "Researcher/Technician",
       "years": "2014 - 2016",
       "mainTech": [
         "MatLab/MS Excel"
@@ -134,26 +185,9 @@
         "WCC KAYAK Certificate"
       ],
       "technologies": [
-      ]
-    },
-    {
-      "company": "Klaipeda University",
-      "title": "Master of Marine Transport Technology",
-      "years": "2014 - 2016",
-      "mainTech": [
-        "MTech"
-      ],
-      "technologies": [
-      ]
-    },
-    {
-      "company": "Klaipeda University",
-      "title": "Bachelor of Chemical Engineering",
-      "years": "2010 - 2014",
-      "mainTech": [
-        "BEng"
-      ],
-      "technologies": [
+        "React",
+        "GraphQL",
+        "PostgreSQL"
       ]
     },
     {
@@ -164,7 +198,36 @@
         "Web Development Course Certificate"
       ],
       "technologies": [
+        "C#",
+        "JAVA",
+        "JavaScript",
+        "PHP"
       ]
+    },
+    {
+      "company": "Klaipeda University",
+      "title": "Master of Marine Transport Technology",
+      "years": "2014 - 2016",
+      "mainTech": [
+        "MTech"
+      ],
+      "technologies": []
+    },
+    {
+      "company": "Military Academy of Lithuania",
+      "title": "Junior Officer Course",
+      "years": "2012 - 2015",
+      "mainTech": ["First Lieutenant"],
+      "technologies": []
+    },
+    {
+      "company": "Klaipeda University",
+      "title": "Bachelor of Chemical Engineering",
+      "years": "2010 - 2014",
+      "mainTech": [
+        "BEng"
+      ],
+      "technologies": []
     }
   ]
 }

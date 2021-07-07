@@ -129,6 +129,13 @@ header h1 {
 	text-align: center;
 }
 
+#about a,
+#about a:hover,
+#about a:visited,
+#about a:focus {
+	color: #fff;
+}
+
 .foto img {
 	display: block;
 	width: 100%;

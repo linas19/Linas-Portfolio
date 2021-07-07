@@ -4,6 +4,15 @@ class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+        return (
+          <span key={network.name} className="m-4">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
+              <i className={network.class}></i>
+            </a>
+          </span>
+        );
+      });
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -16,6 +25,7 @@ class About extends Component {
         <div className="col-md-12">
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
+            <div className="social-links">{networks}</div>
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
@@ -26,6 +36,7 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
+
                 </span>
               </div>
             </div>
@@ -70,6 +81,7 @@ class About extends Component {
             </div>
           </div>
         </div>
+
       </section>
     );
   }

@@ -1,78 +1,86 @@
 {
-    "basic_info": {
-      "name": "Linas Jonika",
-      "titles": [ "Full-stack Developer", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/linas-jonika-0a65baa0/",
-          "class": "fab fa-linkedin"
-        },
-        {
-          "name": "github",
-          "url": "https://github.com/linas19",
-          "class": "fab fa-github"
-        }
-      ],
-      "image": "foto.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "React",
-          "class": "devicon-react-plain",
-          "level": "95"
-        },
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "PHP",
-          "class": "devicon-php-plain",
-          "level": "65"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        },
-        {
-          "name": "Swift",
-          "class": "devicon-swift-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Linas Jonika",
+    "titles": [
+      "Full-stack Developer",
+      "Mobile App Developer"
+    ],
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/linas-jonika-0a65baa0/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/linas19",
+        "class": "fab fa-github"
+      }
+    ],
+    "image": "foto.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "95"
+      },
+      {
+        "name": "Postgresql",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": "65"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "65"
+      },
+      {
+        "name": "Swift",
+        "class": "devicon-swift-plain",
+        "level": "60"
+      },
+      {
+        "name": "GraphQL",
+        "class": "devicon-graphql-plain",
+        "level": "60"
+      }
+    ]
   }
+}
