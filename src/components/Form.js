@@ -1,6 +1,5 @@
 import React from "react";
-import TextField from '@material-ui/core/TextField';
-
+import Button from '@material-ui/core/Button';
 
 export default function Form() {
     return (
@@ -21,7 +20,9 @@ export default function Form() {
                         <textarea id="message" name="message" placeholder="Message" required></textarea>
                     </p>
                     <p>
-                        <input id="submit" type="submit" value="SUBMIT" />
+                        <Button id="submit" type="submit" variant="contained" color="primary">
+                            SUBMIT
+                        </Button>
                     </p>
                 </form>
             </div>
