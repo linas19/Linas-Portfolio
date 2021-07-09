@@ -357,7 +357,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #f3efe3;
 	padding-bottom: 5%;
 }
 
@@ -471,14 +471,17 @@ footer a:focus {
 	width: 200px;
 	border: solid rgb(131,58,180);
 	border-radius: 5px;
-	background-color: rgba(253,160,29,1);
+	background-color: #f9f5e9;
+}
+::placeholder {
+	color: black
 }
 #message{
 	height: 100px;
 	width: 200px;
 	border: solid rgb(131,58,180);
 	border-radius: 5px;
-	background-color: rgba(253,160,29,1);
+	background-color: #f9f5e9;
 }
 #submit{
 	width: 200px;
