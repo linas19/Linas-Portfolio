@@ -19,7 +19,7 @@
         "images/portfolio/bug_tracker/p1.png",
         "images/portfolio/bug_tracker/p2.png"
       ],
-      "url": "https://github.com/linas19/BugTracker",
+      "url": "https://shielded-mountain-88896.herokuapp.com/index.html",
       "technologies": [
         {
           "class": "devicon-react-plain",

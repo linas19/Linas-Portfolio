@@ -1,6 +1,6 @@
 {
   "basic_info": {
-    "description_header": "Sveiki. Mano vardas Linas ",
+    "description_header": "Hi there. My name is Linas ",
     "description": "Having spent multiple years in research, I developed a keen interest in new technologies and programming in particular. I have been fortunate enough to be able to explore different fields within programming including machine learning as well as mobile and web app development. For the future, I am keen to find a fun and sociable team that shares my excitement for programming and innovation and be able to further develop my technical skills as a full stack developer.",
     "section_name": {
       "about": "About me",
@@ -19,7 +19,7 @@
         "images/portfolio/bug_tracker/p1.png",
         "images/portfolio/bug_tracker/p2.png"
       ],
-      "url": "https://github.com/linas19/BugTracker",
+      "url": "https://shielded-mountain-88896.herokuapp.com/index.html",
       "technologies": [
         {
           "class": "devicon-react-plain",
