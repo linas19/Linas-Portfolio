@@ -16,7 +16,8 @@
       "startDate": "2021",
       "description": "My current project. I will use this app to track bug in the apps that I will develop in the future. It uses the MERN stack.",
       "images": [
-        "images/portfolio/bug_tracker/p1.png"
+        "images/portfolio/bug_tracker/p1.png",
+        "images/portfolio/bug_tracker/p2.png"
       ],
       "url": "https://github.com/linas19/BugTracker",
       "technologies": [
