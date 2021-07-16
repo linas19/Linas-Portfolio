@@ -1,7 +1,9 @@
 import React from "react";
 import Button from '@material-ui/core/Button';
 
+
 export default function Form() {
+
     return (
         <div id="form">
             <h1 >
@@ -20,7 +22,7 @@ export default function Form() {
                         <textarea id="message" name="message" placeholder="Message" required></textarea>
                     </p>
                     <p>
-                        <Button id="submit" type="submit" variant="contained" color="primary">
+                        <Button id="submit" type="submit" variant="contained" color="primary" onClick={window.location.reload()}>
                             SUBMIT
                         </Button>
                     </p>
