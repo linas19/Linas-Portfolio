@@ -9,7 +9,7 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import Form from './components/Form'
+// import Form from './components/Form'
 
 class App extends Component {
 
@@ -103,7 +103,7 @@ class App extends Component {
               <Nav.Link onClick={this.projectsScroll}>Projects</Nav.Link>
               <Nav.Link onClick={this.skillsScroll}>Skills</Nav.Link>
               <Nav.Link onClick={this.experienceScroll}>Experience</Nav.Link>
-              <Nav.Link onClick={this.getInTouchScroll}>CONTACT</Nav.Link>
+              {/* <Nav.Link onClick={this.getInTouchScroll}>CONTACT</Nav.Link> */}
             </Nav>
           </Container>
 
@@ -168,7 +168,7 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <div ref={this.getInTouchRef}></div>
-        <Form />
+        {/* <Form /> */}
 
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
